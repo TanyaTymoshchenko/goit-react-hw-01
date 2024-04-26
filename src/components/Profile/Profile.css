@@ -1,11 +1,13 @@
 .wrapper {
-    width: 320px;
-    height: 420px;
+    width: 420px;
+    height: 400px;
     background: #fdfeff;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 30px;
+    padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
         rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding-top:55px ;
+    padding-bottom: 30px;
 }
 
 .avatar {
@@ -21,7 +23,7 @@
 }
 
 .profile {
-    margin-top: 2.2em;
+    margin-top: 3.5 em;
     position: relative;
 
     .name {
