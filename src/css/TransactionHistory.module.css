@@ -1,0 +1,24 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.grey {
+    background-color: rgb(138, 193, 150);
+}
+
+.line:nth-child(even) {
+    background-color: #a9a7a7d9;
+}
+
+.line:hover {
+    background-color: #ddd;
+}

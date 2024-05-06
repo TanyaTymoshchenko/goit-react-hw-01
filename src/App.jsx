@@ -1,15 +1,16 @@
-import Profile from "./components/Profile/Profile";
-import FriendList from "./components/FriendList/FriendList";
-import userData from "./components/Profile/userData.json";
-import friends from "./components/FriendList/friends.json";
-import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
-import transactions from "./components/TransactionHistory/transactions.json";
+import userData from "./userData.json";
+import friends from './friends.json';
+import transactions from './transactions.json'
+import Profile from "./components/Profile";
+import FriendList from "./components/FriendList";
+import TransactionHistory from './components/TransactionHistory'
+import './css/App.css'
 
 const App = () => {
   return (
     <>
       <Profile
-        name={userData.name}
+        name={userData.username}
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
